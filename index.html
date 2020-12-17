@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style> /*22061072 엄해연*/
+      * {
+        font-family: 'Noto Sans KR', sans-serif;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url('ui/BG.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-size: 14px;
+      }
+
+
+      li {
+        list-style-type: none;
+      }
+      .clear {
+        clear: both;
+      }
+      header {
+        width: 1100px;
+        height: 100px;
+        margin: 0 auto;
+        /*border: solid 1px red;*/
+      }
+      #logo {
+        float: left;
+        margin: 45px 0 0 30px;
+        width: 280px;
+        /*border: solid 1px red;*/
+      }
+      #menus {
+        float: left;
+        /*border: solid 1px red;*/
+        margin-top: 10px;
+        margin-left: 55px;
+      }
+
+      #main_menu {
+        float: center;
+        margin-top: 50px;
+        font-size: 14px;
+        /*border: solid 1px red;*/
+      }
+      #main_menu li {
+        display: inline;
+        margin-left: 70px;
+        font-family: 'Noto Sans CJK KR Black';
+      }
+
+      #contact {
+        float: right;
+        width: 200px;
+        height: 50px;
+        margin: 40px 30px 0 0;
+        /*border: solid 1px red;*/
+      }
+
+      #contact img {
+        float: right;
+      }
+
+      a:link { color: #091B54; text-decoration: none;}
+      a:visited { color: black; text-decoration: none;}
+      a:hover { color: #93A1CE; text-decoration: none;}
+
+      span {
+        color: #93A1CE;
+        font-style: bold;
+        text-decoration-style: underline;
+      }
+
+
+      #main_img {
+        width: 100%;
+        height: 400px;;
+        background-image: url('ui/mainimg.png');
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin-top: 20px;
+      }
+
+      #contents {
+        width: 1100px;
+        margin: 0 auto;
+      }
+
+      #main_contents {
+        width: 500px;
+        height: 320px;
+        margin-top: 28px;
+        margin-left: 300px;
+        /*border: solid 1px red;*/
+        text-align: center;
+      }
+      #main_contents h3 {
+        font-family: 'Noto Sans CJK KR Black';
+        color: #091B54;
+        font-size: 22px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+        text-align: center;
+      }
+      #main_contents p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 30px;
+        line-height: 180%;
+      }
+      #main_contents #figure {
+        margin-top: 30px;
+        text-align: center;
+      }
+      #main_contents li {
+        margin-left: 50px;
+        font-style: bold;
+        text-align: left;
+      }
+
+      #edu_contents {
+        width: 500px;
+        height: 200px;
+        margin-top: 28px;
+        margin-left: 300px;
+        /*border: solid 1px red;*/
+        text-align: center;
+      }
+
+      #edu_contents h4{
+        font-family: 'Noto Sans KR Bold';
+        float: left;
+        width: 100px;
+        height: 65px;
+        margin-top: 28px;
+        margin-left: 15px;
+        border-right: solid 2px #091B54;
+        /*border: solid 1px red;*/
+        padding: 1em;
+        text-align: left;
+      }
+
+      #edu_contents h5{
+        font-family: 'Noto Sans KR Light';
+        float: left;
+        width: 300px;
+        height: 65px;
+        margin-top: 28px;
+        margin-left: 10px;
+        /*border: solid 1px red;*/
+        padding: 1em;
+        text-align: left;
+        font-size: 13px;
+      }
+
+
+      #edu_contents h3 {
+        font-family: 'Noto Sans CJK KR Black';
+        color: #091B54;
+        font-size: 22px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+        text-align: center;
+      }
+
+      /*스킬 파트*/
+      #skills_contents {
+        font-family: 'Noto Sans KR';
+        width: 500px;
+        height: 230px;
+        margin-top: 28px;
+        margin-left: 300px;
+        /*border: solid 1px red;*/
+        text-align: center;
+      }
+
+      #skills_contents h3 {
+        font-family: 'Noto Sans CJK KR Black';
+        color: #091B54;
+        font-size: 22px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+        text-align: center;
+      }
+
+      #skills_contents img {
+        float: left;
+        width: 90px;
+        height: 90px;
+        margin-top: 20px;
+        margin-left: 55px;
+        /*border: solid 1px red;*/
+      }
+
+      /*푸터 파트*/
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 40px;
+        background-color: #091B54;
+      }
+
+      #footer_box {
+        width: 1100px;
+        height: 150px;
+        margin: 0 auto;
+        /*^border: solid 1px green;*/
+      }
+      #footer_logo {
+        float: left;
+        margin: 60px 0 0 30px;
+        /*border: solid 1px red;*/
+      }
+      #address {
+        font-size: 12px;
+        float: left;
+        margin: 60px 30px 0 20px;
+        color: #FFFCEB;
+        /*border: solid 1px red;*/
+      }
+
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      </style>
+    <title>HAVEADEEP</title>
+  </head>
+
+
+  <body>
+    <header>
+
+      <div id="logo">
+        <a href="#"><img src="ui/logo3.png" width='120'></a>
+      </div>
+
+      <nav id='menus'>
+
+        <ul id='main_menu'>
+          <li><a href="index_2.html">기획</a></li>
+          <li><a href="index_3.html">디자인</a></li>
+          <li><a href="index_4.html">프로그래밍</a></li>
+        </ul>
+        </nav>
+
+        <div id="contact">
+          <a href="index_6.html"><img src="ui/contact4.png" width='50'></a>
+        </div>
+    </header>
+
+    <section id='main_img'>
+
+    </section>
+    <section id='contents'>
+    <div id='main_contents'>
+      <h3>UI/UX DESIGNER <br>엄해연 EOM HAEYEON</h3>
+      <p>해 연; 이 이름의 뜻은 갖출 해에 깊을 연으로 <br>
+         '깊게 갖추다'라는 뜻을 지니고 있습니다.<br><br>
+       디자인만 고집하는 디자이너가 아닌, <br>
+        기획과 웹코딩도 함께 갖추어<br>
+      넓은 시야로 세상을 그려내는 디자이너입니다.</p>
+    </div>
+
+    <div id="edu_contents">
+      <h3>EDUCATION</h3>
+        <h4>2020 . 02 <br><br>
+        2023 . 02 -  </h4>
+        <h5>마산여자고등학교 졸업 <br><br>
+        계원예술대학교 디지털미디어디자인과 졸업 예정 </h4>
+    </div>
+
+    <div id="skills_contents">
+      <h3>SKILLS</h3>
+      <img src="ui/ae.png">
+      <img src="ui/ai.png">
+      <img src="ui/ps.png">
+    </div>
+
+    </section>
+      <div class="clear"></div> <!-- float 속성 해제 -->
+    <footer>
+    <div id="footer_box">
+      <div id="footer_logo">
+        <img src="ui/logo4.png" width='100'>
+      </div>
+      <ul id='address'>
+        <li>portfolio presents for 엄해연</li>
+        <li>Copyright &copy; 2020. Haveadeep. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
