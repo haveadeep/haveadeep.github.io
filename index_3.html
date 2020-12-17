@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style> /*22061072 엄해연*/
+    * {
+      font-family: 'Noto Sans KR', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url('ui/BG2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size: 14px;
+    }
+
+
+    li {
+      list-style-type: none;
+    }
+    .clear {
+      clear: both;
+    }
+    header {
+      width: 1100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+    #logo {
+      float: left;
+      margin: 45px 0 0 30px;
+      width: 280px;
+    }
+    #menus {
+      float: left;
+      margin-top: 10px;
+      margin-left: 55px;
+    }
+
+    #main_menu {
+      font-style: bold;
+      float: center;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+    #main_menu li {
+      display: inline;
+      margin-left: 70px;
+      font-family: 'Noto Sans CJK KR Black';
+    }
+
+    #contact {
+      float: right;
+      width: 200px;
+      height: 50px;
+      margin: 40px 30px 0 0;
+    }
+
+    #contact img {
+      float: right;
+    }
+
+    a:link { color: #091B54; text-decoration: none;}
+    a:visited { color: black; text-decoration: none;}
+    a:hover { color: #93A1CE; text-decoration: none;}
+
+      .design {
+        margin: 0 auto;
+        padding: 0;
+        width: 1100px;
+        height: 1730px;
+      }
+
+      #design_title {
+        width: 550px;
+        height: 150px;
+        float: left;
+        margin-top: 20px;
+        padding: 2em;
+      }
+
+      #design_title h2 {
+        font-size: 60px;
+        color: #091B54;
+      }
+
+      #design_content {
+        width: 1100px;
+        height: 250px;
+        float: left;
+        border-bottom: solid 1px #cccccc;
+        /*border: solid 1px red;*/
+      }
+
+      #design_content img {
+        float: right;
+        height: 200px;
+        margin: 20px;
+        margin-right: 30px;
+      }
+
+      #p1 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+      }
+      #p1 h2 {
+        font-family: 'Noto Sans CJK KR Medium';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+
+      #p1 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      #p2 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+      }
+
+      #p2 h2 {
+        font-family: 'Noto Sans CJK KR Light';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+      #p2 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      span {
+        color: #93A1CE;
+        font-style: bold;
+        text-decoration-style: underline;
+      }
+
+      /*푸터 파트*/
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #091B54;
+      }
+
+      #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+      }
+      #footer_logo {
+        float: left;
+        margin: 40px 0 0 30px;
+      }
+      #address {
+        font-size: 12px;
+        float: left;
+        margin: 40px 30px 0 10px;
+        color: #FFFCEB;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      </style>
+    <title>DESIGN</title>
+  </head>
+  <body>
+    <header>
+
+      <div id="logo">
+        <a href="index.html"><img src="ui/logo5.png" width='120'></a>
+      </div>
+
+      <div id="contact">
+        <a href="index_6.html"><img src="ui/contact4.png" width='50'></a>
+      </div>
+
+      <nav id='menus'>
+
+        <ul id='main_menu'>
+          <li><a href="index_2.html">기획</a></li>
+          <li><a href="index_3.html"><span>디자인</span></a></li>
+          <li><a href="index_4.html">프로그래밍</a></li>
+        </ul>
+        </nav>
+    </header>
+
+      <div class="clear"></div> <!-- float 속성 해제 -->
+
+      <div class="design">
+        <div id="design_title">
+          <h2>Design</h2>
+        </div>
+
+        <div id="design_content">
+          <div id="p1">
+            <h2>콘텐츠 디자인 <br> 디지털 브로셔: 마르쉐@</h2>
+            <p>2020년 2학기 직무능력수행평가2에 실시했던 작업물입니다.</p>
+          </div>
+          <img src="design/design_1.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>About 마르쉐</h2>
+            <p>그레이톤을 중점적으로 고려하여 디자인하였으며,<br>
+            해당 파트에서는 주로 마르쉐에 대한 정의와 설명으로 구성되어 있습니다.<br>
+          그렇기 때문에 다소 정적인 분위기를 띄고 있는데,<br>
+        이를 에프터이펙트로 섬세한 인터렉션을 주어 요소를 더했습니다.</p>
+          </div>
+          <img src="design/design_2.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>체험기</h2>
+            <p>옐로우톤을 중점적으로 고려하여 디자인하였으며,<br>
+            해당 파트에서는 주로 마르쉐 시장에 다녀온 체험에 대한 이야기로 구성되어 있습니다.<br>
+          사진 위주의 밝은 느낌으로, 이야기의 이해를 돕는 작은 모션을 통해 재미 요소를<br>
+        더했습니다.</p>
+          </div>
+          <img src="design/design_4.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p1">
+            <h2>기초 디자인 <br> 인포그래픽 디자인</h2>
+            <p>2020년 1학기 직무능력수행평가1에 실시했던 작업물입니다.</p>
+          </div>
+          <img src="design/design_10.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>애니어그램 전체 페이지</h2>
+            <p>애니어그램 성격 유형을 각각의 행성에 비유하여 디자인한<br>
+            인포그래픽입니다. 우주를 배경으로 굵은 선을 이용하여 제작하였으며,<br>
+          신비하고 몽환적인 분위기를 의도하였습니다.</p>
+          </div>
+          <img src="design/design_11.png">
+        </div>
+        <div id="design_content">
+          <div id="p2">
+            <h2>지도자 목성 페이지</h2>
+            <p>각 행성을 클릭할 시 나오는 상세 설명 페이지입니다.</p>
+          </div>
+          <img src="design/design_12.png">
+        </div>
+      </div>
+
+
+
+    <footer>
+    <div id="footer_box">
+      <div id="footer_logo">
+        <img src="ui/logo4.png" width='100'>
+      </div>
+      <ul id='address'>
+        <li>portfolio presents for 엄해연</li>
+        <li>Copyright &copy; 2020. Haveadeep. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+
+
+  </body>
+</html>

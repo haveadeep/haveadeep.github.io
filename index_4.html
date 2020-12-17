@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style> /*22061072 엄해연*/
+    * {
+      font-family: 'Noto Sans KR', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url('ui/BG2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size: 14px;
+    }
+
+
+    li {
+      list-style-type: none;
+    }
+    .clear {
+      clear: both;
+    }
+    header {
+      width: 1100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+    #logo {
+      float: left;
+      margin: 45px 0 0 30px;
+      width: 280px;
+    }
+    #menus {
+      float: left;
+      margin-top: 10px;
+      margin-left: 55px;
+    }
+
+    #main_menu {
+      font-style: bold;
+      float: center;
+      margin-top: 50px;
+      font-size: 14px;
+    }
+    #main_menu li {
+      display: inline;
+      margin-left: 70px;
+      font-family: 'Noto Sans CJK KR Black';
+    }
+
+    #contact {
+      float: right;
+      width: 200px;
+      height: 50px;
+      margin: 40px 30px 0 0;
+    }
+
+    #contact img {
+      float: right;
+    }
+
+    a:link { color: #091B54; text-decoration: none;}
+    a:visited { color: black; text-decoration: none;}
+    a:hover { color: #93A1CE; text-decoration: none;}
+
+      .design {
+        margin: 0 auto;
+        padding: 0;
+        width: 1100px;
+        height: 1730px;
+      }
+
+      #design_title {
+        width: 550px;
+        height: 150px;
+        float: left;
+        margin-top: 20px;
+        padding: 2em;
+      }
+
+      #design_title h2 {
+        font-size: 60px;
+        color: #091B54;
+      }
+
+      #design_content {
+        width: 1100px;
+        height: 250px;
+        float: left;
+        border-bottom: solid 1px #cccccc;
+        /*border: solid 1px red;*/
+      }
+
+      #design_content img {
+        float: right;
+        height: 200px;
+        margin: 20px;
+        margin-right: 30px;
+      }
+
+      #p1 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+      }
+      #p1 h2 {
+        font-family: 'Noto Sans CJK KR Medium';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+
+      #p1 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      #p2 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+      }
+
+      #p2 h2 {
+        font-family: 'Noto Sans CJK KR Light';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+      #p2 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      span {
+        color: #93A1CE;
+        font-style: bold;
+        text-decoration-style: underline;
+      }
+
+      /*푸터 파트*/
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #091B54;
+      }
+
+      #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+      }
+      #footer_logo {
+        float: left;
+        margin: 40px 0 0 30px;
+      }
+      #address {
+        font-size: 12px;
+        float: left;
+        margin: 40px 30px 0 10px;
+        color: #FFFCEB;
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      </style>
+    <title>DESIGN</title>
+  </head>
+  <body>
+    <header>
+
+      <div id="logo">
+        <a href="index.html"><img src="ui/logo5.png" width='120'></a>
+      </div>
+
+      <div id="contact">
+        <a href="index_6.html"><img src="ui/contact4.png" width='50'></a>
+      </div>
+
+      <nav id='menus'>
+
+        <ul id='main_menu'>
+          <li><a href="index_2.html">기획</a></li>
+          <li><a href="index_3.html">디자인</a></li>
+          <li><a href="#"><span>프로그래밍</span></a></li>
+        </ul>
+        </nav>
+
+    </header>
+
+      <div class="clear"></div> <!-- float 속성 해제 -->
+
+      <div class="design">
+        <div id="design_title">
+          <h2>Programming</h2>
+        </div>
+
+        <div id="design_content">
+          <div id="p1">
+            <h2>콘텐츠 프로그래밍 <br>웹사이트 제작: 금니플래닛</h2>
+            <p>2020년 2학기 직무능력수행평가2에 실시했던 작업물입니다.</p>
+          </div>
+          <img src="pro/pro_1.gif">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>PLANET PAGE</h2>
+            <p>플래닛 페이지의 배경에 gif의 별 이미지를 깔아 더욱 신비한<br>
+            느낌을 연출하고자 하였습니다.ㄴ</p>
+          </div>
+          <img src="pro/pro_2.gif">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>ILLUST PAGE</h2>
+            <p>웹페이지의 분위기에 맞게 작업한 일러스트 3장을 플롯을 사용해<br>
+            한 줄로 정렬한 모습입니다. 또한 그 아래에는 설명을 추가하여 이해를<br>
+          돕기 위해 작성하였습니다.</p>
+          </div>
+          <img src="pro/pro_3.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>CHARACTER PAGE</h2>
+            <p>메인 캐릭터 금니에 대한 설명을 자세히, 그리고 재치있게 작성하여<br>
+            보는 이가 즐거움을 느낄 수 있도록 제작하였습니다.</p>
+          </div>
+          <img src="pro/pro_4-1.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>CHARACTER PAGE</h2>
+            <p>메인 캐릭터 금니에 대한 설명을 자세히, 그리고 재치있게 작성하여<br>
+            보는 이가 즐거움을 느낄 수 있도록 제작하였습니다.</p>
+          </div>
+          <img src="pro/pro_4-2.png">
+        </div>
+        <div id="design_content">
+          <div id="p2">
+            <h2>CONTACT PAGE</h2>
+            <p>마지막으로 해당 사이트의 관계자와 연락을 할 수 있는 <br>
+            컨택페이지로 마무리하게 됩니다.</p>
+          </div>
+          <img src="pro/pro_5.gif">
+        </div>
+      </div>
+
+
+
+    <footer>
+    <div id="footer_box">
+      <div id="footer_logo">
+        <img src="ui/logo4.png" width='100'>
+      </div>
+      <ul id='address'>
+        <li>portfolio presents for 엄해연</li>
+        <li>Copyright &copy; 2020. Haveadeep. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
