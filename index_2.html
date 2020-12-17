@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style> /*22061072 엄해연*/
+    * {
+      font-family: 'Noto Sans KR', sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url('ui/BG2.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      font-size: 14px;
+    }
+
+
+    li {
+      list-style-type: none;
+    }
+    .clear {
+      clear: both;
+    }
+    header {
+      width: 1100px;
+      height: 100px;
+      margin: 0 auto;
+      /*border: solid 1px red;*/
+    }
+    #logo {
+      float: left;
+      margin: 45px 0 0 30px;
+      width: 280px;
+      /*border: solid 1px red;*/
+    }
+    #menus {
+      float: left;
+      /*border: solid 1px red;*/
+      margin-top: 10px;
+      margin-left: 55px;
+    }
+
+    #main_menu {
+      font-style: bold;
+      float: center;
+      margin-top: 50px;
+      font-size: 14px;
+      /*border: solid 1px red;*/
+    }
+    #main_menu li {
+      display: inline;
+      margin-left: 70px;
+      font-family: 'Noto Sans CJK KR Black';
+    }
+
+    #contact {
+      float: right;
+      width: 200px;
+      height: 50px;
+      margin: 40px 30px 0 0;
+      /*border: solid 1px red;*/
+    }
+
+    #contact img {
+      float: right;
+    }
+
+    a:link { color: #091B54; text-decoration: none;}
+    a:visited { color: black; text-decoration: none;}
+    a:hover { color: #93A1CE; text-decoration: none;}
+
+      .design {
+        margin: 0 auto;
+        padding: 0;
+        width: 1100px;
+        height: 1730px;
+        /*border: solid 1px red;*/
+      }
+
+      #design_title {
+        width: 550px;
+        height: 150px;
+        float: left;
+        margin-top: 20px;
+        padding: 2em;
+        /*border: solid 1px red;*/
+      }
+
+      #design_title h2 {
+        font-size: 60px;
+        color: #091B54;
+      }
+
+      #design_content {
+        width: 1100px;
+        height: 250px;
+        float: left;
+        border-bottom: solid 1px #cccccc;
+        /*border: solid 1px red;*/
+      }
+
+      #design_content img {
+        float: right;
+        height: 200px;
+        margin: 20px;
+        margin-right: 30px;
+        border: solid 1px #091B54;
+      }
+
+      #p1 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+        /*border: solid 1px red;*/
+      }
+      #p1 h2 {
+        font-family: 'Noto Sans CJK KR Medium';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+
+      #p1 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      #p2 {
+        float: left;
+        height: 200px;
+        margin:20px;
+        margin-left: 30px;
+        /*border: solid 1px red;*/
+      }
+
+      #p2 h2 {
+        font-family: 'Noto Sans CJK KR Light';
+        font-size: 25px;
+        padding-bottom: 15px;
+        border-bottom: solid 1px #cccccc;
+      }
+      #p2 p {
+        font-family: 'Noto Sans CJK KR Light';
+        margin-top: 15px;
+        line-height: 130%;
+      }
+
+      span {
+        color: #93A1CE;
+        font-style: bold;
+        text-decoration-style: underline;
+      }
+
+      /*푸터 파트*/
+      footer {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+        background-color: #091B54;
+      }
+
+      #footer_box {
+        width: 1140px;
+        height: 150px;
+        margin: 0 auto;
+        /*border: solid 1px green;*/
+      }
+      #footer_logo {
+        float: left;
+        margin: 40px 0 0 30px;
+        /*border: solid 1px red;*/
+      }
+      #address {
+        font-size: 12px;
+        float: left;
+        margin: 40px 30px 0 10px;
+        color: #FFFCEB;
+        /*border: solid 1px red;*/
+      }
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      </style>
+    <title>DESIGN</title>
+  </head>
+  <body>
+    <header>
+
+      <div id="logo">
+        <a href="index.html"><img src="ui/logo5.png" width='120'></a>
+      </div>
+
+      <div id="contact">
+        <a href="index_6.html"><img src="ui/contact4.png" width='50'></a>
+      </div>
+
+      <nav id='menus'>
+
+        <ul id='main_menu'>
+          <li><a href="index_2.html"><span>기획</span></a></li>
+          <li><a href="index_3.html">디자인</a></li>
+          <li><a href="index_4.html">프로그래밍</a></li>
+        </ul>
+        </nav>
+    </header>
+
+      <div class="clear"></div> <!-- float 속성 해제 -->
+
+      <div class="design">
+        <div id="design_title">
+          <h2>Planning</h2>
+        </div>
+
+        <div id="design_content">
+          <div id="p1">
+            <h2>Proj.1 콘텐츠 기획 <br>웹서비스 리뉴얼: 푸룻푸룻뮤지엄</h2>
+            <p>2020년 2학기 직무능력수행평가2에 실시했던 프로젝트입니다.  <br>
+              기획의 프로세스를 개인으로 시작하는 첫 작업이었기 때문에 <br>
+             색다른 주제가 없을까 고민하던 중 그 흔한 GNB가 없는 이 서비스를<br>
+           선정하게 되었습니다.</p>
+          </div>
+          <img src="plan/plan_1.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>스토리보드</h2>
+            <p>앞선 기획의 단계를 거쳐 최종 완성된 스토리보드입니다.<br>
+            지난 기획 프로젝트보다 한층 더 성장한 것 같아 뿌듯하였습니다.</p>
+          </div>
+          <img src="plan/plan_4.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>시사점</h2>
+            <p>기존 웹사이트의 가장 문제가 되었던 GNB의 부재,<br>
+            그리고 턱없이 부족했던 정보량을 보완하여 사용자 경험을<br>
+          어느정도 고려한 웹사이트로 발전하게 되었습니다.</p>
+          </div>
+          <img src="plan/plan_6.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p1">
+            <h2>Proj.2 콘텐츠 기획 <br>웹서비스 리뉴얼: 에그드랍</h2>
+            <p>2020년 2학기 직무능력수행평가1에 실시했던 프로젝트입니다. <br>
+              2학기 들어 가장 처음 맡게된 팀 프로젝트였습니다.<br>
+              주제를 리서치하던 중, 인지도와 신생브랜드라는 기준점으로 <br>선정하게 되었습니다.
+          </p>
+          </div>
+          <img src="plan/plan_2-1.png">
+        </div>
+
+        <div id="design_content">
+          <div id="p2">
+            <h2>정보구조도</h2>
+            <p>부족하고 이해하기 어려운 에그드랍의 카테고리 내용을<br>
+            정보구조설계의 단계를 통해 직관적이고 사용자 경험을 고려하도록<br>
+          제작하였습니다.</p>
+          </div>
+          <img src="plan/plan_2-2.png">
+        </div>
+        <div id="design_content">
+          <div id="p2">
+            <h2>스토리보드</h2>
+            <p>앞선 모든 과정들을 토대로 최종 스토리보드를 도출해냈습니다.<br>
+              오른쪽은 모바일 스토리보드로, PC와 동일한 구성을 지니고 있습니다.
+            </p>
+          </div>
+          <img src="plan/plan_2-3.png">
+        </div>
+      </div>
+
+
+
+    <footer>
+    <div id="footer_box">
+      <div id="footer_logo">
+        <img src="ui/logo4.png" width='100'>
+      </div>
+      <ul id='address'>
+        <li>portfolio presents for 엄해연</li>
+        <li>Copyright &copy; 2020. Haveadeep. All rights reserved.</li>
+      </ul>
+    </div>
+  </footer>
+
+
+  </body>
+</html>
